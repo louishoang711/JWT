@@ -1,0 +1,15 @@
+{
+  "properties": [
+    {
+      "name": "security.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Base64-encoded secret used to sign and verify HS256 JWT tokens."
+    },
+    {
+      "name": "security.jwt.expiration-time",
+      "type": "java.lang.Long",
+      "description": "JWT validity duration in milliseconds.",
+      "defaultValue": 3600000
+    }
+  ]
+}
